@@ -1,0 +1,68 @@
+.Header{
+    background-color: rgb(189, 189, 189);
+    width: 100vw;
+    height: 60px;
+    display: grid;
+
+}
+.navbar-collapse{
+    z-index: 10;
+}
+.me-auto{
+    background-color: rgba(209, 209, 209, 0.918);
+    margin-top: 10px;
+    border-radius: 5px;
+    display: grid;
+    grid-row-gap: 5px;
+    padding-bottom: 20px;
+    
+    .Link, .Link_more{
+        background-color: rgba(209, 209, 209, 0);
+        border-radius: 5px;
+        color: rgb(104, 104, 104);
+        display: grid;
+        height: 40px;
+        grid-template-columns: 15px 1fr;
+        .none{
+            display: grid;
+            grid-column: 1;
+            font-size: 0;
+        }
+    }
+
+    .Input_menu{
+        display: grid;
+        grid-columns: 3;
+        .form-control{
+            height: 24px;
+        }
+    }
+
+    .Link:hover, .Link_more:hover{
+        background-color: rgba(196, 196, 196, 0.457);
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        display: grid;
+
+    }
+
+    .Link_more{
+        grid-template-columns: 60px 0.5fr 1fr; 
+        text-align: center;
+        justify-items: start;
+        .TextStatus{
+            display: grid;
+            height: 24px;
+            width: auto;
+        }
+    }
+
+    .btn_menu{
+        display: grid;
+        align-items: center;
+        .Switch_menu{
+            display: grid;
+        }
+    }
+
+}

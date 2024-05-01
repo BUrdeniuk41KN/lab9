@@ -1,0 +1,25 @@
+.Home_Info{
+    display: grid;
+    width: 100%;
+    height: auto;
+    justify-items: center;
+    align-items: center;
+    margin-top: 40px;
+    .contein_Home_info{
+        display: grid;
+        width: 80%;
+        background-color: rgb(243, 243, 243);
+        padding: 15px;
+        padding-right: 25px;
+        border-radius: 8px;
+    }
+    .text{
+        margin-top: 8px;
+        padding: 3px;
+        &:hover{
+            padding: 3px;
+            background-color: rgb(215, 215, 215);
+            border-radius: 4px;
+        }
+    }
+}

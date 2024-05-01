@@ -1,0 +1,62 @@
+.Header {
+  background-color: rgb(189, 189, 189);
+  width: 100vw;
+  height: 60px;
+  display: grid;
+}
+
+.navbar-collapse {
+  z-index: 10;
+}
+
+.me-auto {
+  background-color: rgba(209, 209, 209, 0.918);
+  margin-top: 10px;
+  border-radius: 5px;
+  display: grid;
+  grid-row-gap: 5px;
+  padding-bottom: 20px;
+}
+.me-auto .Link, .me-auto .Link_more {
+  background-color: rgba(209, 209, 209, 0);
+  border-radius: 5px;
+  color: rgb(104, 104, 104);
+  display: grid;
+  height: 40px;
+  grid-template-columns: 15px 1fr;
+}
+.me-auto .Link .none, .me-auto .Link_more .none {
+  display: grid;
+  grid-column: 1;
+  font-size: 0;
+}
+.me-auto .Input_menu {
+  display: grid;
+  grid-columns: 3;
+}
+.me-auto .Input_menu .form-control {
+  height: 24px;
+}
+.me-auto .Link:hover, .me-auto .Link_more:hover {
+  background-color: rgba(196, 196, 196, 0.457);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  display: grid;
+}
+.me-auto .Link_more {
+  grid-template-columns: 60px 0.5fr 1fr;
+  text-align: center;
+  justify-items: start;
+}
+.me-auto .Link_more .TextStatus {
+  display: grid;
+  height: 24px;
+  width: auto;
+}
+.me-auto .btn_menu {
+  display: grid;
+  align-items: center;
+}
+.me-auto .btn_menu .Switch_menu {
+  display: grid;
+}/*# sourceMappingURL=HeaderStyle.css.map */
