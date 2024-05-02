@@ -1,5 +1,5 @@
 import React from 'react';
-import {toggleTrafic, changeColor} from './Actions.jsx';
+import {changeColor} from './Actions.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Form } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';

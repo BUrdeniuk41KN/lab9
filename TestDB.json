@@ -11,9 +11,9 @@
       "URS_data": [
         {
           "trafic_light_setting": {
-            "opacity_background_color": 95,
-            "time_trasition": "0.1s",
-            "time_animation": "0.1s"
+            "opacity_background_color": 80,
+            "time_trasition": "0.3s",
+            "time_animation": "0.5s"
           }
         }
       ]
