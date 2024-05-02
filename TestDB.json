@@ -1,0 +1,22 @@
+{
+  "trafic_light_setting": {
+    "opacity_background_color": 0.4,
+    "time_trasition": "0.9s",
+    "time_animation": "1.3s"
+  },
+  "User_setings": [
+    {
+      "id": "90a9",
+      "UserName": "TEST NAME",
+      "URS_data": [
+        {
+          "trafic_light_setting": {
+            "opacity_background_color": 95,
+            "time_trasition": "0.1s",
+            "time_animation": "0.1s"
+          }
+        }
+      ]
+    }
+  ]
+}
